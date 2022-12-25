@@ -4,13 +4,13 @@
 - O(n + 10) <b> = O(n) </b>
 - O(100 * n) <b> = O(n) </b>
 - O(25) <b> = O(1) </b>
-- O(n^2 + n^3) <b> = O(n^2) </b>
+- O(n^2 + n^3) <b> = O(n^3) </b>
 - O(n + n + n + n) <b> = O(n) </b>
-- O(1000 * log(n) + n) <b> = O(log(n)) </b>
-- O(1000 * n * log(n) + n) <b> = O(n * log(n)) </b>
-- O(2^n + n^2) <b> = O(2n^2) </b>
+- O(1000 * log(n) + n) <b> = O(n) </b>
+- O(1000 * n * log(n) + n) <b> = O(n log n) </b>
+- O(2^n + n^2) <b> = O(2^n) </b>
 - O(5 + 3 + 1) <b> = O(1) </b>
-- O(n + n^(1/2) + n^2 + n * log(n)^10) <b> = O(n * log(n)^10 </b>
+- O(n + n^(1/2) + n^2 + n * log(n)^10) <b> = O(n^2) </b>
 
 ##Step Two: Calculating Time Complexity
 ###Determine the time complexities for each of the following functions. If you’re not sure what these functions do, copy and paste them into the console and experiment with different inputs!
@@ -87,18 +87,18 @@ Time Complexity: O(n)
 ##Part 3 - short answer
 ###Answer the following questions
 
-- True or false: n^2 + n is O(n^2).
-- True or false: n^2 * n is O(n^3).
-- True or false: n^2 + n is O(n).
-- What’s the time complexity of the .indexOf array method?
-- What’s the time complexity of the .includes array method?
-- What’s the time complexity of the .forEach array method?
-- What’s the time complexity of the .sort array method?
-- What’s the time complexity of the .unshift array method?
-- What’s the time complexity of the .push array method?
-- What’s the time complexity of the .splice array method?
-- What’s the time complexity of the .pop array method?
-- What’s the time complexity of the Object.keys() function?
+- True or false: n^2 + n is O(n^2). <b> True </b>
+- True or false: n^2 * n is O(n^3). <b> True </b>
+- True or false: n^2 + n is O(n). <b> False </b>
+- What’s the time complexity of the .indexOf array method? <b> O(n) </b>
+- What’s the time complexity of the .includes array method? <b> O(n) </b>
+- What’s the time complexity of the .forEach array method? <b> O(n) </b>
+- What’s the time complexity of the .sort array method? ?? Don't know, need to research
+- What’s the time complexity of the .unshift array method? <b> O(n) </b>
+- What’s the time complexity of the .push array method? <b> O(1) </b>
+- What’s the time complexity of the .splice array method? <b> O(n) </b>
+- What’s the time complexity of the .pop array method? <b> O(1) </b>
+- What’s the time complexity of the Object.keys() function? <b> O(n) </b>
 
 BONUS
 
