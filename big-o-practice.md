@@ -21,7 +21,7 @@
   	}
 	}
 
-Time Complexity:
+Time Complexity: O(n)
 
 	function logAtLeast10(n) {
   	for (let i = 1; i <= Math.max(n, 10); i++) {
@@ -29,7 +29,7 @@ Time Complexity:
   	}
 	}
 
-Time Complexity:
+Time Complexity: O(n)
 
 	function logAtMost10(n) {
   	for (let i = 1; i <= Math.min(n, 10); i++) {
@@ -37,7 +37,7 @@ Time Complexity:
   	}
 	}
 
-Time Complexity:
+Time Complexity: O(1)
 
 	function onlyElementsAtEvenIndex(array) {
   	let newArray = [];
@@ -49,7 +49,7 @@ Time Complexity:
  	 return newArray;
 	}
 
-Time Complexity:
+Time Complexity: O(n)
 
 	function subtotals(array) {
   	let subtotalArray = [];
@@ -63,7 +63,7 @@ Time Complexity:
   	return subtotalArray;
 	}
 
-Time Complexity:
+Time Complexity: O(n^2)
 
 	function vowelCount(str) {
 	  let vowelCount = {};
@@ -82,7 +82,7 @@ Time Complexity:
 	  return vowelCount;
 	}
 
-Time Complexity:
+Time Complexity: O(n)
 
 ##Part 3 - short answer
 ###Answer the following questions
