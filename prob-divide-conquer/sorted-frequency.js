@@ -1,5 +1,3 @@
-function sortedFrequency() {
+function sortedFrequency(arr) {}
 
-}
-
-module.exports = sortedFrequency
+module.exports = sortedFrequency;
