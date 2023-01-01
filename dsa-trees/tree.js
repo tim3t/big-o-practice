@@ -37,7 +37,7 @@ class Tree {
 
 		function countEvenNums(node) {
 			for (let child of node.children) {
-				if (child.val % 2 === 0) count++;
+				if (child.val % 2 === 0) counter++;
 				if (child.children.length > 0) {
 					countEvenNums(child);
 				}
@@ -55,7 +55,7 @@ class Tree {
 		let counter = this.root.val > lowerBound ? 1 : 0;
 		function numGreaterChecker(node) {
 			for (let child of node.children) {
-				if (child.val > lowerBound) count++;
+				if (child.val > lowerBound) counter++;
 				if (child.children.length > 0) {
 					numGreaterChecker(child);
 				}
